@@ -9,19 +9,19 @@
 
 <body>
 	<ul>
-		<li><a href="home/">Home</a></li>
+		<li><a href="{% url 'index' %}">Home</a></li>
 		<div class="dropdown">
 			<button class="dropbtn active">About Me
 				<i class='fa fa-caret-down'></i>
 			</button>
 			<div class="dropdown-content">
-				<a class="active" href="biography/">Biography</a>
+				<a class="active" href="{% url 'biography' %}">Biography</a>
 				<a href="">Resume</a>
-				<a href="contact/">Contact Me</a>
+				<a href="{% url 'contact' %}">Contact Me</a>
 			</div>
 		</div>
-		<li><a href="projects/">Projects</a></li>
-		<li><a href="site/">Version History</a></li>
+		<li><a href="{% url 'projects' %}">Projects</a></li>
+		<li><a href="{% url 'site' %}">Version History</a></li>
 	</ul>	
 	<p>
 		This page is still under construction! Please excuse me as I work to revise and reformat and create a cleaner narrative.
