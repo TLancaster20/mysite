@@ -1,21 +1,28 @@
 <!DOCTYPE HTML>
 <html lang= "en">
+
 <head>
 	<title>Version History</title>
 	<meta charset= "UTF-8" />
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/mystyle.css' %">
 </head>
-
-
 
 <body>
 	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="about.html">About Me</a></li>
-		<li><a href="projects.html">Projects</a></li>
-		<li><a class="active" href="site.html">Version History</a></li>
-		<li><a href="contact.html">Contact Me</a></li>
-	</ul>
+		<li><a href="{% url 'index' %}">Home</a></li>
+		<div class="dropdown">
+			<button class="dropbtn">About Me
+				<i class='fa fa-caret-down'></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="{% url 'biography' %}">Biography</a>
+				<a href="">Resume</a>
+				<a href="{% url 'contact' %}">Contact Me</a>
+			</div>
+		</div>
+		<li><a href="{% url 'projects' %}">Projects</a></li>
+		<li><a class="active" href="{% url 'site' %}">Version History</a></li>
+	</ul>		
 	<p> 
 	This page is still under construction!
 	</p>
