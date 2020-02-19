@@ -1,14 +1,28 @@
 <!DOCTYPE HTML>
 <html lang= "en">
+
 <head>
-	<title>Projects</title>
+	<title>Contact Me</title>
 	<meta charset= "UTF-8" />
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/mystyle.css' %">
 </head>
 
-
 <body>
-	
+	<ul>
+		<li><a href="home/">Home</a></li>
+		<div class="dropdown">
+			<button class="dropbtn active">About Me
+				<i class='fa fa-caret-down'></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="biography/">Biography</a>
+				<a href="">Resume</a>
+				<a class='active' href="contact/">Contact Me</a>
+			</div>
+		</div>
+		<li><a href="projects/">Projects</a></li>
+		<li><a href="site/">Version History</a></li>
+	</ul>		
 
 	<h2>
 		Email me at:

@@ -1,13 +1,28 @@
 <!DOCTYPE HTML>
 <html lang= "en">
+
 <head>
 	<title>Home</title>
 	<meta charset= "UTF-8" />
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/mystyle.css' %">
 </head>
 
 <body>
-	
+	<ul>
+		<li><a class="active" href="home/">Home</a></li>
+		<div class="dropdown">
+			<button class="dropbtn">About Me
+				<i class='fa fa-caret-down'></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="biography/">Biography</a>
+				<a href="">Resume</a>
+				<a href="contact/">Contact Me</a>
+			</div>
+		</div>
+		<li><a href="projects/">Projects</a></li>
+		<li><a href="site/">Version History</a></li>
+	</ul>
 
 	<h1>Welcome to my website</h1>
 	<p> My name is Anthony Lancaster and I am a fourth year Bachelors of Science in Computer Science student at the University of Virginia in Charlottesville, Virginia. This website is a little project for me to work on various coding concepts and help to strengthen my skills as a programmer. I apologize for its current, incomplete state as it is a work in progress. Stick around, and see what progress occurs in the future!</p>
