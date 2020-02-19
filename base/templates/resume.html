@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang= "en">
+
+<head>
+	<title>Resume</title>
+	<meta charset= "UTF-8" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/mystyle.css' %">
+</head>
+
+<body>
+	<ul>
+		<li><a href="{% url 'index' %}">Home</a></li>
+		<div class="dropdown">
+			<button class="dropbtn active">About Me
+				<i class='fa fa-caret-down'></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="{% url 'biography' %}">Biography</a>
+				<a class="active" href="{% url 'resume' %}">Resume</a>
+				<a href="{% url 'contact' %}">Contact Me</a>
+			</div>
+		</div>
+		<li><a href="{% url 'projects' %}">Projects</a></li>
+		<li><a href="{% url 'site' %}">Version History</a></li>
+	</ul>	
+	<h1>
+		Anthony James Lancaster
+	</h1>
+	<p>
+		Address: 10310 Walden Rd. Chesterfield, Va 23832 <br>
+		Github: github.com/tlancaster20 <br>
+		Email: ajl6yc@virginia.edu
+	</p>
+	<h2>
+		Education
+	</h2>
+	<h3>
+		University of Virginia
+	</h3>
+	<p>
+		BS Computer Science, May 2020 <br>
+		Course Work History: Introduction to Programming, Software Development Methods, Discrete Mathematics, Program and Data Representation, Digital Logic Design, Theory of Computation, Computer Architecture, Mobile Application Development, Defense Against the Dark Arts, Advanced Software Development Methods, Programming Languages, Software Testing Methods, Operating Systems, Algorithms
+	</p>
+	<h2>
+		Employment History
+	</h2>
+	<h3>
+		Starbucks
+	</h3>
+	<p>
+		Barista | Charlottesville, Va and Chesterfield, Va | January 2018 – present <br>
+		* Work on a team with other baristas to ensure order accuracy, timely service, and present every customer with the Starbucks experience <br>
+		* Provide exceptional customer service, with a focus on making meaningful connections and creating a “third place” environment <br>
+		* Have comprehensive knowledge of products in order to advise customers unfamiliar with offerings or wanting to try something new <br>
+		* Multitask in order to upkeep store cleanliness, keep product stocked, and maintain customer throughput
+	</p>
+	<h2>
+		Projects
+	</h2>
+	<h3> 
+		Smart Charlottesville, August 2019 - May 2020
+	</h3>
+	<p>
+		* Django based web application using postgres database designed to facilitate discussion between Charlottesville community members, UVa students, and UVa faculty on how to improve and innovate the city
+		* Work on team of 7 developers utilizing Scrum methodology
+		* Team interacts bi-weekly with customer to determine product requirements
+		* Current iteration: http://sc-dev.qubi3rnkcn.us-west-2.elasticbeanstalk.com/
+	<h3> 
+		Professional Website, February 2020 - present
+	</h3>
+	<p>
+		* HTML based website to refamiliarize with web design languages as well as learn new web designs skills
+		* Enables an online presence and regularly updated resume for potential employers
+		* Current iteration: https://tlancaster20.github.io/tonys-site/ 
+	</p>
+	<h3>
+		Personal Website, February 2020 - present
+	</h3>
+	<p>
+		* Django based web application utilizing postgres database
+		* Migration of professional website to Django platform for more broad skill practice
+		* Current iteration: Homeless
+	</p>
+	<h2>
+		Computing Skills
+	</h2>
+	<p>
+		Python, Java, C++, C, HTML, CSS, Pygame, Django, React Native, Junit Testing, Test Driven Development, Scrum, Agile Methodologies, Ubuntu, Eclipse, Pycharm, Git, Prolog, Meta Language (ML), Virtual Machines, Visual Studio Code, X86 Assembly, Postgres, Travis CI, Heroku
+	</p>
+	<h3>
+		References Available Upon Request
+	</h3>
+</body>
+</html>

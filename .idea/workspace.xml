@@ -7,7 +7,9 @@
       <change beforePath="$PROJECT_DIR$/base/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1619" />
+          <entry key="py" value="1736" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1619" />
+          <entry key="Python" value="1736" />
         </counts>
       </usages-collector>
     </session>
@@ -50,31 +52,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding>
-                <element signature="e#630#662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -82,18 +63,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/base/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="144">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1582124322325" expanded="true" signature="331:336" ph="..." />
-                <marker date="1582124322325" expanded="true" signature="399:443" ph="..." />
-                <marker date="1582124322325" expanded="true" signature="464:510" ph="..." />
-                <marker date="1582124322325" expanded="true" signature="576:579" ph="..." />
-                <marker date="1582124322325" expanded="true" signature="597:602" ph="..." />
+                <marker date="1582126149185" expanded="true" signature="331:336" ph="..." />
+                <marker date="1582126149185" expanded="true" signature="463:508" ph="..." />
+                <marker date="1582126149185" expanded="true" signature="529:575" ph="..." />
+                <marker date="1582126149185" expanded="true" signature="641:644" ph="..." />
+                <marker date="1582126149185" expanded="true" signature="662:667" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,12 +97,12 @@
       <list>
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/base/views.py" />
         <option value="$PROJECT_DIR$/base/urls.py" />
+        <option value="$PROJECT_DIR$/base/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="99" />
     <option name="y" value="430" />
     <option name="width" value="1755" />
@@ -224,13 +205,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -241,27 +215,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/views.py">
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1582124322325" expanded="true" signature="331:336" ph="..." />
-            <marker date="1582124322325" expanded="true" signature="399:443" ph="..." />
-            <marker date="1582124322325" expanded="true" signature="464:510" ph="..." />
-            <marker date="1582124322325" expanded="true" signature="576:579" ph="..." />
-            <marker date="1582124322325" expanded="true" signature="597:602" ph="..." />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="125" column="22" lean-forward="true" selection-start-line="125" selection-start-column="22" selection-end-line="125" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1582126149185" expanded="true" signature="331:336" ph="..." />
+            <marker date="1582126149185" expanded="true" signature="463:508" ph="..." />
+            <marker date="1582126149185" expanded="true" signature="529:575" ph="..." />
+            <marker date="1582126149185" expanded="true" signature="641:644" ph="..." />
+            <marker date="1582126149185" expanded="true" signature="662:667" ph="..." />
           </folding>
         </state>
       </provider>
