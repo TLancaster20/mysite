@@ -1,0 +1,127 @@
+body{
+	background-color: #00008B; /* Dark blue*/
+}
+
+h1{
+	color: #696969; /*Dim grey*/
+}
+
+h2{
+	color: #D3D3D3; /*Light grey*/
+}
+
+h3{
+	color: #F5F5F5; /*white smoke*/
+}
+
+p{
+	color: #DCDCDC; /*Gainsboro*/
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #696969;
+	position: -webkit-sticky;
+	position:sticky;
+	top:0;
+	width:100%;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #DCDCDC;
+	color: black;
+}
+
+li a:visited{
+	color: white;
+}
+
+
+.active{
+	background-color: #B22222; /*Fire brick*/
+}
+
+.hyperlink{
+	color: #00FFFF; /*aqua*/
+}
+
+a:visited{
+	color:#7FFF00; /*chartreuse*/
+}
+
+a:hover{
+	color:#00BFFF; /*deep sky blue*/
+}
+
+a:active{
+	color:#F08080; /*coral*/
+}
+
+.dropbtn {
+	background-color: #696969;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn{
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.dropdown:hover .dropbtn{
+	background-color: #DCDCDC;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #696969;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a{
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #DCDCDC;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
